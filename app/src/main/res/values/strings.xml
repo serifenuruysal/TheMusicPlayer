@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TheMusicPlayer</string>
+    <string name="err_search">An error has occured</string>
+</resources>
