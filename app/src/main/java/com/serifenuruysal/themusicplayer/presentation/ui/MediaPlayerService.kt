@@ -50,9 +50,6 @@ class MediaPlayerService : Service(), MediaPlayer.OnCompletionListener,
     //Used to pause/resume MediaPlayer
     private var resumePosition: Int = 0
 
-    //AudioFocus
-    private var audioManager: AudioManager? = null
-
     // Binder given to clients
     private val iBinder = LocalBinder()
 
